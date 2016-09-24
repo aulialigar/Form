@@ -14,7 +14,6 @@ import android.widget.TextView;
 public class MainActivity extends AppCompatActivity {
 
     EditText etNama, etNo;
-    //    RadioButton rbRPL,rbTKJ;
     RadioGroup rgAngkatan;
     CheckBox cbOsis, cbMpk, cbPustel;
     Spinner spKelas;
