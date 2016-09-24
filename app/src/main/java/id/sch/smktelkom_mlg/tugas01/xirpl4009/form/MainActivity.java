@@ -31,8 +31,6 @@ public class MainActivity extends AppCompatActivity {
         cbOsis = (CheckBox) findViewById(R.id.checkBoxOsis);
         cbMpk = (CheckBox) findViewById(R.id.checkBoxMpk);
         cbPustel = (CheckBox) findViewById(R.id.checkBoxPustel);
-        /*rbRPL = (RadioButton) findViewById(R.id.radioButtonRPL);
-        rbTKJ = (RadioButton) findViewById(R.id.radioButtonTKJ);*/
         rgAngkatan = (RadioGroup) findViewById(R.id.radioGroupAngkatan);
         spKelas = (Spinner) findViewById(R.id.spinnerKelas);
         bKirim = (Button) findViewById(R.id.buttonKirim);
@@ -49,7 +47,7 @@ public class MainActivity extends AppCompatActivity {
     private void doClick() {
         String hasil = null;
         String nama = etNama.getText().toString();
-        String hasilcb = "Organisasi ";
+        String hasilcb = "Organisasi yang diikuti ";
         int startlen = hasilcb.length();
 
         if (isValid()) {
@@ -70,13 +68,10 @@ public class MainActivity extends AppCompatActivity {
 
                 if (hasil.length() == startlen) hasil += "Tidak ada pada Pilihan";
 
-                tvHasil.setText("Nama Anda " + nama + "\n\nNomor Absen " + no + "\n\nAngkatan " + hasil + "\n\n" + hasilcb + "\n\nKelas " + spKelas.getSelectedItem().toString());
+                tvHasil.setText("\nNama Anda " + nama + "\n\nNomor Absen " + no + "\n\nAngkatan " + hasil + "\n\nKelas " + spKelas.getSelectedItem().toString() + "\n\n" + hasilcb);
             }
         }
     }
-
-    /*private void doProcess() {
-    }*/
 
     private boolean isValid() {
         boolean valid = true;
