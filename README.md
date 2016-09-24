@@ -7,5 +7,4 @@
 ![image](https://cloud.githubusercontent.com/assets/22268453/18806496/e15c46fe-8258-11e6-9ca4-7fe2dbabaf6c.png)<br>
 ![image](https://cloud.githubusercontent.com/assets/22268453/18806502/1368cbc2-8259-11e6-93fe-705d74fa9815.png)<br>
 Aulia Ligar Salma Hanani; XI RPL 4; 09; 9991388519; SMK Telkom Malang<br>
-Link download https://drive.google.com/drive/my-drive
-
+Link download https://drive.google.com/drive/folders/0BwN-jhmD0bOOZlo2anZpV3pvb00
